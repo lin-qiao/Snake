@@ -1,0 +1,225 @@
+
+	body{
+		background-color: #A87651;
+		cursor: pointer;
+	}
+	#sence{
+		width: 600px;
+		height: 600px;
+		position: absolute;
+		margin: auto;
+		top: 0px;
+		left:2px;
+		right: 0px;
+		bottom:0px;
+		background:url(../image/beijing.jpg);
+	}
+	.block{
+		width:27px;
+		height: 27px;
+		float: left;
+		border-right:1px solid #c18c63;
+		border-bottom: 1px solid #c18c63; 
+	}
+	.shiwu{
+		background: url(../image/shiwu.png);
+		background-size: 100% 100%;
+	}
+	#station{
+		width: 300px;
+		height: 100%;
+		background: black;
+		position: absolute;
+		margin: auto;
+		top: 0;
+		left: 0;
+		bottom: 0;
+	}
+	ul,li,body{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        overflow:hidden;
+	}
+	ul{
+		width: 200px;
+		margin: 20px auto;
+	}
+	li{
+	   height: 66px;
+       cursor: pointer;
+       text-align: center;
+       line-height: 66px;
+	}
+	#big li input{
+		width: 150px;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid black;
+		text-align: center;
+		background: none;
+	}
+	strong{
+		display: inline-block;
+		padding: 10px;
+		text-align: center;
+		color: #fff;
+	}
+	#strat{
+        background: url(../image/strat.png);
+		background-size: 100% 100%;
+	}
+	#stop{
+        background: url(../image/stop.png);
+		background-size: 100% 100%;
+	}
+	#restrat{
+		background: url(../image/chongxin.png);
+		background-size: 100% 100%;
+	}
+	.sel15{
+		background: url(../image/15.png);
+		background-size: 100% 100%;
+	}
+	.sel20{
+		background: url(../image/20.png);
+		background-size: 100% 100%;
+	}
+	.select{
+		background: url(../image/shui.png);
+		background-size: 100% 100%;
+	}
+	.sel30{
+		background: url(../image/30.png);
+		background-size: 100% 100%;
+	}
+	.sel151{
+		background: url(../image/151.png);
+		background-size: 100% 100%;
+	}
+	.sel201{
+		background: url(../image/201.png);
+		background-size: 100% 100%;
+	}
+	.sel301{
+		background: url(../image/301.png);
+		background-size: 100% 100%;
+	}
+	.shengright{
+		background: url(../image/sheng1.png);
+		background-size: 100% 100%;
+	}
+	.shengbottom{
+		background: url(../image/sheng2.png);
+		background-size: 100% 100%;
+	}
+	.shengleft{
+		background: url(../image/sheng3.png);
+		background-size: 100% 100%;
+	}
+	.shengtop{
+		background: url(../image/sheng4.png);
+		background-size: 100% 100%;
+	}
+	.touright{
+		background: url(../image/tou2.png);
+		background-size: 100% 100%;
+	}
+	.toubottom{
+		background: url(../image/tou3.png);
+		background-size: 100% 100%;
+	}
+	.touleft{
+		background: url(../image/tou4.png);
+		background-size: 100% 100%;
+	}
+	.toutop{
+		background: url(../image/tou1.png);
+		background-size: 100% 100%;
+	}
+	.bottom-right{
+		background: url(../image/bottom-right.png);
+		background-size: 100% 100%;
+	}
+	.bottom-left{
+		background: url(../image/bottom-left.png);
+		background-size: 100% 100%;
+	}
+	.top-right{
+		background: url(../image/top-right.png);
+		background-size: 100% 100%;
+	}
+	.top-left{
+		background: url(../image/top-left.png);
+		background-size: 100% 100%;
+	}
+	.right-top{
+		background: url(../image/right-top.png);
+		background-size: 100% 100%;
+	}
+	.right-bottom{
+		background: url(../image/right-bottom.png);
+		background-size: 100% 100%;
+	}
+	.left-top{
+		background: url(../image/left-top.png);
+		background-size: 100% 100%;
+	}
+	.left-bottom{
+		background: url(../image/left-bottom.png);
+		background-size: 100% 100%;
+	}
+	.weiright{
+		background: url(../image/wei1.png);
+		background-size: 100% 100%;
+	}
+	.weibottom{
+		background: url(../image/wei2.png);
+		background-size: 100% 100%;
+	}
+	.weileft{
+		background: url(../image/wei3.png);
+		background-size: 100% 100%;
+	}
+	.weitop{
+		background: url(../image/wei4.png);
+		background-size: 100% 100%;
+
+	}
+	.gameover{
+		width:460px;
+		height:300px;
+		margin: auto;
+		position: absolute;
+		top: 0px;
+		left: 300px;
+		right: 0px;
+		bottom:0px;
+		background-image: url(../image/gameover.png);
+		display:none;
+	}
+	.gameover img{
+		position: absolute;
+		margin:auto;
+		right:0;
+		bottom:30px;
+		left:0px;
+		cursor: pointer;
+	}
+	.border{
+	    width:670px;
+	    height:670px;
+	    margin: auto;
+		position: absolute;
+		top: 0px;
+		left: 300px;
+		right: 0px;
+		bottom:0px;
+		background-color:#A77A53;
+		background-image: url(../image/border.png);
+		background-size: 100% 100%;
+	}
+    .tishi{
+         font-size:20px;
+         text-align: center;
+    }
